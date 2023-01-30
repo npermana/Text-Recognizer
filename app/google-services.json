@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897289722281",
+    "project_id": "text-recognizer-ef6ba",
+    "storage_bucket": "text-recognizer-ef6ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897289722281:android:d0bf7433767c4dab42ccb8",
+        "android_client_info": {
+          "package_name": "com.nazar.textrecognizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897289722281-41pe5r16attc81466gn9hom13demtl1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS-B5R8UNcbmgS8TO6qkL9v7p_1tTCjgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897289722281-41pe5r16attc81466gn9hom13demtl1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

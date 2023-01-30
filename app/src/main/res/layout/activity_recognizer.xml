@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenshade"
+    tools:context=".RecognizerActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/scanner"
+        android:id="@+id/ivCaptureImage" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/ivCaptureImage"
+        android:id="@+id/tvResult"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:text="Captured Text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvResult"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="20dp"
+        android:text="Snap Image"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/green"
+        android:id="@+id/btnSnap"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSnap"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="20dp"
+        android:text="Convert Text"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/green"
+        android:id="@+id/btnConvert"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/btnConvert"
+        android:id="@+id/tvLocation"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:text="Your Location"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/tvLocation"
+        android:id="@+id/tvDistance"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:text="Distance to Plaza Indonesia"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/tvDistance"
+        android:id="@+id/tvDistanceVal"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:text="0 meter"/>
+
+</RelativeLayout>
